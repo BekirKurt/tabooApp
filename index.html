@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="containerr">
+      <div class="gameArea">
+        <div class="headerInfo">
+          <div id="durdur"><button class="btn btn-warning">Durdur</button></div>
+          <div id="teamA" class="teamName"></div>
+          <div id="teamB" class="teamName"></div>
+        </div>
+        <div class="header">
+          <div class="row headerItem">
+            <div class="col-6 column ">
+              <div id="score" class="score headerItems">Skor : 0</div>
+              <div id="pasHakki" class="passNumber headerItems">Pas hakkı : 3</div>
+            </div>
+            <div class="col-6 ">
+              <div id="time" class="time headerItems column displayFlex">Zaman</div>
+            </div>
+          </div>
+        </div>
+        <div class="taboo" id="taboo">
+            <!-- <div id="word" class="word displayFlex">Kelime</div> -->
+            <!-- <div id="tabooWords" class="tabooWords displayFlex">yasak kelimeler</div>
+            <div id="tabooWords2" class="tabooWords displayFlex">yasak kelimeler</div>
+            <div id="tabooWords3" class="tabooWords displayFlex">yasak kelimeler</div>
+            <div id="tabooWords4" class="tabooWords displayFlex">yasak kelimeler</div>
+            <div id="tabooWords5" class="tabooWords displayFlex">yasak kelimeler</div> -->
+        </div>
+        <div class="control">
+            <div class="row">
+                <div id="yasak" class="col-4"><button class="btn btn-warning">Yasak</button></div>
+                <div id="pas" class="col-4"><button class="btn btn-warning">Pas</button></div>
+                <div id="dogru" class="col-4"><button class="btn btn-warning">Doğru</button></div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <script type="module"  src="script.js"></script>
+  </body>
+  
+</html>

@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: bold;
+}
+
+.containerr {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  background-color: #222222;
+}
+
+.headerInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+}
+
+.teamNames {
+  margin: 10px 0;
+}
+
+#teamA {
+  margin-top: 20px;
+}
+
+#startGame {
+  margin-top: 10px;
+}
+
+.gameArea {
+  width: 30vw;
+  padding: 30px 0;
+  border-radius: 25px;
+  overflow: hidden;
+  background-color: #434242;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.headerItem {
+  width: 100%;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  margin: 0;
+  background-color: #e6e5a3;
+  overflow: hidden;
+}
+
+.column {
+  height: 80px;
+}
+
+.col-6 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.taboo {
+  background-color: #7d8f69;
+  text-align: center;
+  border-radius: 30px;
+  color: antiquewhite;
+  margin-bottom: 30px;
+}
+.word {
+  background-color: #557153;
+  height: 70px;
+  width: 100%;
+  font-size: 28px;
+  font-weight: 600;
+}
+.tabooWords {
+  height: 60px;
+  border-top: 2px solid #557153;
+}
+
+#score {
+  padding: 10px 0 10px 15px;
+}
+#pasHakki {
+  padding: 3px 0 10px 10px;
+}
+
+.control {
+  justify-content: space-between;
+  width: 100%;
+  text-align: center;
+}
+
+.displayFlex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .gameArea {
+    width: 40vw;
+  }
+}
+@media screen and (max-width: 800px) {
+  .gameArea {
+    width: 80vw;
+  }
+}
