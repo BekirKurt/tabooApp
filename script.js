@@ -64,7 +64,7 @@ function changeWord() {
   document.getElementById("taboo").innerHTML = htmlString;
 }
 
-alert("Oyuna başlamak için tıklayınız..");
+//alert("Oyuna başlamak için tıklayınız..");
 
 document.getElementById("pas").addEventListener("click", pass);
 
